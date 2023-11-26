@@ -59,7 +59,7 @@ function Header1({ collapsed, setCollapsed }) {
     //     </Col>
     //   </Row>
 
-    <Header style={{ padding: 0, background: "#fff" }}>
+    <Header style={{ padding: 0, background: "#0174BE" }}>
       <Button
                     type="text"
                     icon={collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
@@ -68,6 +68,7 @@ function Header1({ collapsed, setCollapsed }) {
                         fontSize: '16px',
                         width: 64,
                         height: 64,
+                        color:'#fff'
                     }}
                 /> 
       {" "}
@@ -88,6 +89,8 @@ function Header1({ collapsed, setCollapsed }) {
                     marginLeft: "10px",
                     width: "40px",
                     justifyContent: "center",
+                    color:'#fff'
+
                   }}
                 />
               </span>

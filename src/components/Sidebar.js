@@ -23,8 +23,8 @@ function Sidebar({ collapsed, onClose }) {
       <Menu
         defaultSelectedKeys={["1"]}
         mode="inline"
-        theme="light"
-        style={{ height: "100%"   }}
+        style={{ height: "100%",width:'100%',background:'#0174BE'}
+      }
       >
         <div
           className="logo"
@@ -96,7 +96,8 @@ function Sidebar({ collapsed, onClose }) {
           placement="left"
           onClose={onClose}
           visible={collapsed}
-          
+          style={{background:'#FFF0CE'}}
+
         >
           {items}{" "}
         </Drawer>
@@ -108,6 +109,7 @@ function Sidebar({ collapsed, onClose }) {
           trigger={null}
           collapsible
           collapsed={collapsed}
+          style={{background:'#FFF0CE'}}
         >
           {items}{" "}
         </Sider>

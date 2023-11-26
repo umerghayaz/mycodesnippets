@@ -25,12 +25,43 @@ function Layoutmain() {
         <Header1 collapsed={collapsed} setCollapsed={setCollapsed} />
 
         <Content>
-        <ResponsiveForm/>
+        {/* <ResponsiveForm/> */}
         </Content>
         {/* <Footer style={{ textAlign: "center" }}>
           Copyright @ 2023. Developed by Umer .
         </Footer> */}
+          <Footer
+          // style={{
+          //   textAlign: "center",
+          //   fontWeight: "bold",
+          //   background: "#f4f5f6",
+          //   color: "#1E4896",
+          // }}
+          // style={{ 
+          //   borderTop: '1px solid #e8e8e8',
+          //   position: 'fixed',
+          //   left: 0,
+          //   bottom: 0,
+          //   width: '100%',
+          //   backgroundColor: 'white',
+          //   textAlign: 'center',
+          //   display: 'flex',}}
+          style={{ 
+            borderTop: '1px solid #e8e8e8',
+            position: 'fixed',
+            left: 0,
+            bottom: 0,
+            right:0,
+            width: '100%',
+            backgroundColor: '#0174BE',
+            textAlign: 'center',
+            }}
+            >
+        
+           ©2023 | Powered by Telecard Ltd.
+        </Footer>
       </Layout>
+      
     </Layout>
   );
 }

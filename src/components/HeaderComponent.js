@@ -33,7 +33,7 @@ const HeaderComponent = ({ setToggled,  isToggled }) => {
   return (
     <Header
       className="site-layout-sub-header-background"
-      style={{padding: 0, background: "#EAEAEA" }}
+      style={{padding: 0, background: "#0174BE" }}
     >
       <Menu selectable={false} mode="horizontal" style={{justifyContent:'center'}} >
         {/* {!User.loggedIn && ( */}

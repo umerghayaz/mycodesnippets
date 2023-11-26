@@ -9,6 +9,10 @@ import { AgentLoginReport } from './Assets/AgentLoginReport ';
 import ResponsiveForm from './components/ResponsiveForm';
 import Chartcomp from './components/Chartcomp';
 import HeaderComponent from './components/HeaderComponent';
+import Landingpage from './components/Landingpage';
+import Dascards from './components/Dascards';
+import Products from './components/Products';
+import Editproduct from './components/Editproduct';
 
 const App = () => {
   
@@ -16,8 +20,12 @@ const App = () => {
     <div className="App">
       <Routes>
       <Route path="/" element={ <HeaderComponent/> } />
+      <Route path="/Products" element={ <Products/> } />
+      <Route path='Products/Editproduct/:id' element={<Editproduct/>} />
 
       <Route path="/s" element={ <Layoutmain/> } />
+      <Route path="/Landingpage" element={ <Landingpage/> } />
+      <Route path="/Dascards" element={ <Dascards/> } />
 
       <Route path="/ss" element={ <AgentLoginReport/> } />
 
